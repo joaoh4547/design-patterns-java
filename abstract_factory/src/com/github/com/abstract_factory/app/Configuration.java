@@ -15,6 +15,7 @@ public class Configuration {
 	
 	public void startRoute() {
 		vehicle.startRoute();
+		System.out.println();
 		aircraft.startRoute();
 	}
 }
