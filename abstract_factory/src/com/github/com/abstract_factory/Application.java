@@ -13,7 +13,7 @@ public class Application {
 		
 		String company = "uber";
 		
-		if(company == "uber") {
+		if(company == "99") {
 			factory = new UberTransportFactory();
 		}
 		else {
