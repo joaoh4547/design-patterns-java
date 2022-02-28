@@ -15,11 +15,11 @@ public class Paypal implements IPaypalPayments {
 	public void paypalPayment() {
 		this.token = authToken();
 
-		System.out.println(String.format("Enviando pagamentos para o paypal\nUsando o token:%s ", this.token));
+		System.out.println(String.format("Enviando pagamentos para o paypal\nUsando o token: %s\n ", this.token.getToken()));
 	}
 
 	@Override
-	public void paypalRecive() {
+	public void paypalRecive() {	
 		System.out.println("Recebendo pagamentos via paypal");
 
 	}
