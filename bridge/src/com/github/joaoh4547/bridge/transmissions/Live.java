@@ -1,9 +1,16 @@
 package com.github.joaoh4547.bridge.transmissions;
 
+import com.github.joaoh4547.bridge.platforms.IPlatform;
+
 public class Live implements ITransmission {
+	protected IPlatform platform;
 	
 	public Live() {
 		
+	}
+	
+	public Live(IPlatform platform) {
+		this.platform = platform;
 	}
 	
 	@Override
